@@ -1,0 +1,38 @@
+git help "comandos"	
+git help commit
+
+
+Comando para iniciar
+git init
+
+Comando para agregar al stage
+git add . -> agrega todo
+git add "nombre del archivo -> ej: git add algo.txt
+git add "*.extension" -> ej: git add *.txt
+git add "carpeta/" -> ej: git add Pruebas_github/
+
+Comando para estado de repositorio
+
+git commit -m "el detalle de lo que mande -> ej: git commit -m "primer commit"
+
+git status -> muestra el estado en el repositorio/state
+
+git log -> nos muestra el historial de los commit
+
+git push -> nos deja enviar los datos que fueron enviados (commit) al repositorio
+
+git remote add origin "url del repo remoto" -> que agregue el lugar de trabajo remoto
+
+git branch - M "nuevo nombre) -> permite cambiar el nombre del branch
+
+git restore --staged "fichero" -> para bajar un fichero del stage
+
+git checkout "nombre de la branch" -> para hacer cambios y chequear movimientos entre ramas
+
+git checkout -b "nombre de la rama" -> para crear una nueva rama
+
+mkdir "nombre de la carpeta a crear" -> crea repositorios (directorios)
+
+touch "nombre del archivo + extension -> crear una hoja de trabajo ej: algo.txt
+
+clear, cd,cd.., cd c/,
